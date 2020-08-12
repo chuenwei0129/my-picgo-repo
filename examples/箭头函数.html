@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<h2>点击切换颜色</h2>
+		<script>
+			document
+				.querySelector('h2')
+				.addEventListener(
+					'click',
+					(e) => (e.currentTarget.style.color = 'grey')
+				)
+
+			// 箭头函数不适用于 dom 事件回调 对象方法回调
+			// this 相关 setTimout 数组方法 回调
+		</script>
+	</body>
+</html>

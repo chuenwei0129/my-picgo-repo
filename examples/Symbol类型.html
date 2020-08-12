@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<script>
+			// 创建 symbol
+			let [a, _a] = [Symbol('a'), Symbol('a')]
+			console.log(a === _a) // false
+
+			let [b, _b] = [Symbol.for('b'), Symbol.for('b')]
+			console.log(b === _b) // true
+
+			// 给对象添加symbol属性
+			let proto = {
+				name: Symbol('name'),
+				age: Symbol('age'),
+			}
+
+			let Obj = {}
+
+			Obj[proto.name] = function () {
+				console.log(this === Obj) // true
+			}
+
+			Obj[proto.age] = () => {
+				console.log(this === Obj) // false
+			}
+
+			Obj[proto.name]() // es5 []不加''代表变量
+			Obj[proto.age]() // es6中的属性表达式[]中是表达式
+
+			// 另外直接添加
+			var s1 = Symbol('1')
+			var s2 = Symbol('2')
+			let o = {
+				[s1]: 1,
+				[s2]: 2,
+			}
+			console.log(o[s1], o[s2]) // 1, 2
+
+			// Symbol应用场景
+		</script>
+	</body>
+</html>
