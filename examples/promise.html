@@ -6,6 +6,19 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<script></script>
+		<script>
+			var p = new Promise((resolve, reject) => {
+				console.log('1')
+				setTimeout(() => {
+					let data = 'hello world'
+					// 处理异步数据
+					resolve(data)
+				}, 1000)
+			})
+
+			p.then((val) => {
+				console.log(val)
+			})
+		</script>
 	</body>
 </html>
