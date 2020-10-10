@@ -1,0 +1,26 @@
+{
+	"name": "es_next_learn_repo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"directories": {
+		"example": "examples"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chuenwei0129/es_next_learn_repo.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/chuenwei0129/es_next_learn_repo/issues"
+	},
+	"homepage": "https://github.com/chuenwei0129/es_next_learn_repo#readme",
+	"dependencies": {
+		"jest": "^26.5.2"
+	}
+}
