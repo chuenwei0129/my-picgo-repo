@@ -18,11 +18,11 @@ console.log(Math.min.apply(undefined, [1, 2, 4]))
 // 整数四舍五入
 console.log(Math.round(Math.random() * 10 + 20))
 
-// 判断素数 3 只能被自己和1整除不含1 , 2是素数
+// 判断素数只能被自己和 1 整除不含 1 , 2 是素数
 // 整数取整后等于自己
 // es6 api Number.isInteger
 // 2 不走循环 返回true
-// 判断素数只要判断到 开方就行，跳出条件是 num % i === 0
+// 判断素数只要判断到开方就行，跳出条件是 num % i === 0
 function isPrime(num) {
   // 判断是否是整数
   if (typeof num === 'number' && (num | 0) === num) {
@@ -40,6 +40,10 @@ function isPrime(num) {
     return false
   }
 }
+
+console.log(isPrime(2))
+console.log(isPrime(87))
+console.log(isPrime(77))
 
 // set 
 let set = new Set([1, 2, 3])
@@ -59,7 +63,7 @@ console.log(set.has(1), set.has(4))
 
 // 中文排序 a.localCopar(b, 'zh')
 
-// 链式操作，操作返回自身
+// 链式操作，操作返回自身 return this
 
 
 
