@@ -14,7 +14,7 @@
 
 新建一个仓库
 
-![create_new_repo](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/create_new_repo.png?token=AEIZJZOOEJ3EFFYW6L43WJTACFXIY)
+![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/02/create_new_repo.png?token=AEIZJZIY33YLJDOD7XW7CYLACFY62)
 
 记下你取的仓库名。
 
@@ -24,11 +24,11 @@
 
 然后点击 `Generate new token`。
 
-![generate_new_token.png](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/generate_new_token.png?token=AEIZJZO4UTD3SRRQY736TCTACFV4E)
+![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/02/generate_new_token.png?token=AEIZJZOBL2QF657J46P7NALACFZBU)
 
 把 `repo` 的勾打上即可。然后翻到页面最底部，点击 `Generate token` 的绿色按钮生成`token`。
 
-![generate_token_repo](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/generate_token_repo.png?token=AEIZJZNOM2BVF5P743O3PH3ACFWG6)
+![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/02/generate_token_repo.png?token=AEIZJZJT2AN5CUNEOJTENULACFZEK)
 
 **注意：** 这个 `token` 生成后只会显示一次！你要把这个 `token` 复制一下存到其他地方以备以后要用。
 
