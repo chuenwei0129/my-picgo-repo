@@ -14,7 +14,7 @@
 
 新建一个仓库
 
-![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/02/create_new_repo.png?token=AEIZJZIY33YLJDOD7XW7CYLACFY62)
+![create_new_repo](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/02/create_new_repo.png?token=AEIZJZIY33YLJDOD7XW7CYLACFY62)
 
 记下你取的仓库名。
 
