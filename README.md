@@ -14,7 +14,7 @@
 
 新建一个仓库
 
-![create_new_repo](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/create_new_repo.png?token=AEIZJZK43AOLDW6QPNBEFHDACFVWI)
+![create_new_repo](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/create_new_repo.png?token=AEIZJZOOEJ3EFFYW6L43WJTACFXIY)
 
 记下你取的仓库名。
 
@@ -32,7 +32,7 @@
 
 **注意：** 这个 `token` 生成后只会显示一次！你要把这个 `token` 复制一下存到其他地方以备以后要用。
 
-![copy_token](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/copy_token.png?token=AEIZJZKX73AYOUZJ5DH6KXDACFWKQ)
+![copy_token](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021/copy_token.png?token=AEIZJZLPQ43AALKXR2DUCP3ACFXQQ)
 
 配置 PicGo
 
