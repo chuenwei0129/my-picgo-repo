@@ -1,5 +1,7 @@
 ## PicGo 图床 Github 仓库设置
 
+> **更多功能设置：** https://picgo.github.io/PicGo-Doc/
+
 ```js
 {
   "repo": "", // 仓库名，格式是 username/reponame
@@ -12,13 +14,13 @@
 
 首先你得有一个 GitHub 账号。注册 GitHub 就不用我多言。
 
-新建一个公共仓库
+1. 新建一个公共仓库
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021-02/create_new_repo.png)
 
 记下你取的仓库名。
 
-生成一个 token 用于 PicGo 操作你的仓库：
+2. 生成一个 token 用于 PicGo 操作你的仓库：
 
 **访问：** https://github.com/settings/tokens
 
@@ -34,7 +36,7 @@
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021-02/copy_token.png)
 
-配置 PicGo
+3. 配置 PicGo
 
 **注意：** 仓库名的格式是用户名/仓库，比如我创建了一个叫做 `test` 的仓库，在 PicGo 里我要设定的仓库名就是 `Molunerfinn/test`。一般我们选择 `main` 分支即可。然后记得点击确定以生效，然后可以点击`设为默认图床`来确保上传的图床是 GitHub。
 
@@ -44,4 +46,4 @@
 
 ![](https://raw.githubusercontent.com/chuenwei0129/my-picgo-repo/master/2021-02/success.png)
 
-**更多功能设置：** https://picgo.github.io/PicGo-Doc/
+
